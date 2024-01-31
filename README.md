@@ -19,7 +19,7 @@ File structures and namings:
 
 ### Windows
 
-Just double-click on the .bat file, and enjoy! 
+Double click on the .bat file. A terminal will be opened, asking to write the name of the updated and old main LaTeX files. Please notice that the names need to be inserted **without extensions**. After that, just wait until the end of the compilation.
 
 It will generate two files:
 - a LatexDiff file called **diff.tex**
@@ -31,4 +31,4 @@ All the auxiliary files, as well as the compiled versions of main.tex and main_o
 
 | Date       | Version | Changes |
 |------------|---------|---------|
-| 2024-01-31 | 1.0   | Initial release |
+| 2024-01-31 | 1.0   | Windows release |
