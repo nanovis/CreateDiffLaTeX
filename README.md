@@ -12,7 +12,7 @@ Needed packages:
 - a LatexDiff installation (with MikTeX it will be installed automatically at the first execution; otherwise, you can install it manually from [here](https://www.ctan.org/pkg/latexdiff))
 
 File structures and namings:
-- the files need to be called **main_old.tex** and **main.tex**
+- the files need to be called **main_old.tex** and **main.tex** (future releases will make this much more flexible)
 - the main files must be inside the same folder of the .bat file 
 - to highlight bibliography differences, two different .bib files are needed (one for the old .tex and another for the new one)
 
