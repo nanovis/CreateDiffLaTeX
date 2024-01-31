@@ -15,8 +15,7 @@ Needed packages:
 
 File structures and namings:
 - the files need to be called **main_old.tex** and **main.tex**
-- all the content must be inside one file (no various .tex files included in the main one;
-- all the files must be inside the same folder of the .bat file 
+- the main files must be inside the same folder of the .bat file 
 - to highlight bibliography differences, two different .bib files are needed (one for the old .tex and another for the new one)
 
 ## Instructions
@@ -35,4 +34,4 @@ All the auxiliary files, as well as the compiled versions of main.tex and main_o
 
 | Date       | Version | Changes |
 |------------|---------|---------|
-| 2024-01-31 | 0.1.0   | Initial upload |
+| 2024-01-31 | 1.0   | Initial release |

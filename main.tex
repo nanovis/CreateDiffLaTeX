@@ -9,26 +9,12 @@
 
 \maketitle
 
-\section{Introduction}
-This is another sample LaTeX document, with proper citations like \cite{smith2021,jones2020,brown2019}.
-
-\section{Methods}
-Here, you can describe again the methods used in your project.
-
-\section{Results}
-Present your updated results and findings in this section.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{image.jpeg}
-    \caption{This is an updated sample figure.}
-    \label{fig:sample}
-\end{figure}
-
-\section{Conclusion}
-Summarize your work and provide incredible concluding remarks.
+\input{sections/new/introduction.tex}
+\input{sections/new/methods.tex}
+\input{sections/new/results.tex}
+\input{sections/new/conclusions.tex}
 
 \bibliographystyle{plain}
-\bibliography{ref}
+\bibliography{sections/new/ref}
 
 \end{document}

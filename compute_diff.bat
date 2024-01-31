@@ -8,8 +8,8 @@ bibtex main_old
 pdflatex main_old.tex
 pdflatex main_old.tex
 
-latexdiff main_old.tex main.tex > diff.tex
-latexdiff main_old.bbl main.bbl > diff.bbl
+latexdiff --flatten main_old.tex main.tex > diff.tex
+latexdiff --flatten main_old.bbl main.bbl > diff.bbl
 
 bibtex diff
 pdflatex diff.tex
