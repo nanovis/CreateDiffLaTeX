@@ -2,8 +2,6 @@
 
 This repository contains all the needed materials to create a .pdf file which highlights the differences between two .tex files. 
 
-The current version only supports computing differences between two main files that contain all the content. Future releases will support computing differences for files with more complex structures.
-
 ## Requirements
 
 The current version works only on **Windows**. A future update for Unix-based systems is planned.
@@ -28,7 +26,7 @@ It will generate two files:
 - a LatexDiff file called **diff.tex**
 - a compiled .pdf file called **diff.pdf**
 
-All the auxiliary files, as well as the compiled versions of main.tex and main_old.tex will be automatically deleted, to keep the folder as clean as possible.
+All the auxiliary files, as well as the compiled versions of main.tex and main_old.tex, will be automatically deleted, to keep the folder as clean as possible.
 
 ## Changelog
 
